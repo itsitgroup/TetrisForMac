@@ -3,8 +3,10 @@ TETRIS FOR MAC WITH APPLE SILICON
 
 INSTALLATION INSTRUCTIONS:
 1. Drag the "TetrisForMac" folder to your Applications folder or any location you prefer
-2. Double-click the "launch_tetris.command" file inside the folder to start the game
-3. If you get a security warning, right-click (or Control-click) on "launch_tetris.command" and select "Open"
+2. Open Terminal and cd to the Tetris folder
+3. Activate your virtual env or create one (Python 3.12 recommended)
+4. Run: pip install -r requirements.txt
+5. Run: ./launch_tetris.command
 
 REQUIREMENTS:
 - macOS 11.0 (Big Sur) or later
